@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andr Morro и Архитекторы Вкуса</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#investors">Инвесторам</a></li>
+                <li><a href="#creators">Архитекторам Вкуса</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+        <h1>Andr Morro и Архитекторы Вкуса</h1>
+        <p>Объединяем кулинарию и инвестиции</p>
+    </header>
+
+    <section id="investors">
+        <h2>Инвесторам</h2>
+        <p>Присоединяйтесь к нашему проекту и начните получать прибыль с минимальными вложениями. У нас прозрачная система вложений с порогом от 50 злотых и ежедневными начислениями дивидендов. Чем раньше вы вложите средства, тем выше ваш доход.</p>
+        <button onclick="investNow()">Вложить сейчас</button>
+    </section>
+
+    <section id="creators">
+        <h2>Архитекторам Вкуса</h2>
+        <p>Архитекторы Вкуса — это мастера, создающие уникальные кулинарные шедевры. Присоединяйтесь к нашей платформе, чтобы развивать свой бренд и предлагать свои услуги инвесторам и клиентам.</p>
+        <button onclick="joinCreators()">Присоединиться</button>
+    </section>
+
+    <section id="contact">
+        <h2>Контакты</h2>
+        <form id="contact-form">
+            <label for="name">Имя</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Контакты: <a href="mailto:andrmorro@gmail.com">andrmorro@gmail.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
